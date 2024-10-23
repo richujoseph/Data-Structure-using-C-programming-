@@ -8,9 +8,7 @@
     <li><a href="#introduction">Introduction</a></li>
     <li><a href="#data-structures-implemented">Data Structures Implemented</a></li>
     <li><a href="#time-complexity-analysis">Time Complexity Analysis</a></li>
-    <li><a href="#features">Features</a></li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#contributing">Contributing</a></li>
+
 </ul>
 
 <h2 id="introduction">Introduction</h2>
