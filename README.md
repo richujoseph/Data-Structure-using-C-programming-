@@ -1,3 +1,20 @@
+# Repository Under Maintenance
+
+**⚠️ Disclaimer: This repository is currently under maintenance.**
+
+We are in the process of updating the content and fixing any issues. Please check back later for updates. We appreciate your understanding and patience during this time.
+
+## What You Can Expect
+
+- Improvements to existing code and documentation.
+- New features and enhancements.
+- Bug fixes and performance optimizations.
+
+If you have any urgent questions or need assistance, please feel free to reach out.
+
+Thank you for your support!
+
+*Richu Joseph*
 # Data Structures in C
 
 This repository contains implementations of various data structures and algorithms in C. The focus is on fundamental concepts that are essential for understanding data organization and manipulation.
