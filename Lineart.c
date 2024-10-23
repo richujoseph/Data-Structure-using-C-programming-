@@ -35,13 +35,4 @@ printf("The element is not found");
 }
 printf("\n");
 printf("The time complexity %d",t);
-
-
-/*printf("\n");
-
-for(i=0;i<n;i++){
-printf("%d",a[i]);
-printf("\t");
-}
-printf("\n");*/
 }
