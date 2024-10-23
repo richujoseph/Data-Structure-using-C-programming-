@@ -1,70 +1,104 @@
-</head>
-<body>
+# Data Structures in C
 
-<h1>Data Structures Lab in C</h1>
+This repository contains implementations of various data structures and algorithms in C. The focus is on fundamental concepts that are essential for understanding data organization and manipulation.
 
-<h2>Table of Contents</h2>
-<ul>
-    <li><a href="#introduction">Introduction</a></li>
-    <li><a href="#data-structures-implemented">Data Structures Implemented</a></li>
-    <li><a href="#time-complexity-analysis">Time Complexity Analysis</a></li>
+## Table of Contents
 
-</ul>
+- [Linear Search](#linear-search)
+- [Binary Search](#binary-search)
+- [Circular Queue](#circular-queue)
+- [Queue](#queue)
+- [Stack using Array](#stack-using-array)
+- [Polynomial Addition](#polynomial-addition)
+- [Infix to Postfix Conversion](#infix-to-postfix-conversion)
+- [Linked List](#linked-list)
+- [Polynomial Addition using Linked List](#polynomial-addition-using-linked-list)
 
-<h2 id="introduction">Introduction</h2>
-<p>This repository contains a collection of C programs implementing various data structures, including linear search and binary search, circular queue, queue, stack using array, polynomial addition, infix to postfix, linked list, and polynomial addition using linked list.</p>
+## Linear Search
 
-<h2 id="data-structures-implemented">Data Structures Implemented</h2>
-<ul>
-    <li>Linear Search</li>
-    <li>Binary Search</li>
-    <li>Circular Queue</li>
-    <li>Queue</li>
-    <li>Stack using Array</li>
-    <li>Polynomial Addition</li>
-    <li>Infix to Postfix</li>
-    <li>Linked List</li>
-    <li>Polynomial Addition using Linked List</li>
-</ul>
+### Description
+Linear search is a simple algorithm that checks every element in a list until the desired element is found or the list ends.
 
-<h2 id="time-complexity-analysis">Time Complexity Analysis</h2>
-<table>
-    <tr>
-        <th>Data Structure</th>
-        <th>Time Complexity</th>
-        <th>Link to Time Complexity Analysis</th>
-    </tr>
-    <tr>
-        <td>Linear Search</td>
-        <td>O(n)</td>
-        <td><a href="https://github.com/richujoseph/Data-Structure-using-C-programming-/blob/master/Linear%20Search/linear_search.c">Linear Search Time Complexity Analysis</a></td>
-    </tr>
-    <tr>
-        <td>Binary Search</td>
-        <td>O(log n)</td>
-        <td><a href="https://github.com/richujoseph/Data-Structure-using-C-programming-/blob/master/Binary%20Search/binary_search.c">Binary Search Time Complexity Analysis</a></td>
-    </tr>
-    <tr>
-        <td>Circular Queue</td>
-        <td>O(1) for enqueue and dequeue</td>
-        <td><a href="https://github.com/richujoseph/Data-Structure-using-C-programming-/blob/master/Circular%20Queue/circular_queue.c">Circular Queue Time Complexity Analysis</a></td>
-    </tr>
-    <tr>
-        <td>Queue</td>
-        <td>O(1) for enqueue and dequeue</td>
-        <td><a href="https://github.com/richujoseph/Data-Structure-using-C-programming-/blob/master/Queue/queue.c">Queue Time Complexity Analysis</a></td>
-    </tr>
-    <tr>
-        <td>Stack using Array</td>
-        <td>O(1) for push and pop</td>
-        <td><a href="https://github.com/richujoseph/Data-Structure-using-C-programming-/blob/master/Stack%20using%20Array/stack_array.c">Stack using Array Time Complexity Analysis</a></td>
-    </tr>
-    <tr>
-        <td>Polynomial Addition</td>
-        <td>O(n)</td>
-        <td><a href="https://github.com/richujoseph/Data-Structure-using-C-programming-/blob/master/Polynomial%20Addition/polynomial_addition.c">Polynomial Addition Time Complexity Analysis</a></td>
-    </tr>
-    <tr>
-        <td>Infix to Postfix</td>
-        <td>O(n)</td>
-        <td><a href="https://github.com/richujoseph/Data-Structure-using-C-programming-/blob/master/Infix%20to%20Postfix/infix
+### Implementation
+- File: `linear_search.c`
+- Example usage and testing provided in the file.
+
+## Binary Search
+
+### Description
+Binary search is a more efficient algorithm that finds the position of a target value within a sorted array by repeatedly dividing the search interval in half.
+
+### Implementation
+- File: `binary_search.c`
+- Example usage and testing provided in the file.
+
+## Circular Queue
+
+### Description
+A circular queue is a linear data structure that follows the FIFO (First In First Out) principle, but the last position is connected back to the first position to make a circle.
+
+### Implementation
+- File: `circular_queue.c`
+- Example usage and testing provided in the file.
+
+## Queue
+
+### Description
+A queue is a linear data structure that follows the FIFO principle, where elements are added from the rear and removed from the front.
+
+### Implementation
+- File: `queue.c`
+- Example usage and testing provided in the file.
+
+## Stack using Array
+
+### Description
+A stack is a linear data structure that follows the LIFO (Last In First Out) principle, where elements are added and removed from the top.
+
+### Implementation
+- File: `stack_array.c`
+- Example usage and testing provided in the file.
+
+## Polynomial Addition
+
+### Description
+This algorithm adds two polynomials represented as arrays.
+
+### Implementation
+- File: `polynomial_addition.c`
+- Example usage and testing provided in the file.
+
+## Infix to Postfix Conversion
+
+### Description
+This algorithm converts infix expressions (like `A + B`) to postfix expressions (like `AB+`) using a stack.
+
+### Implementation
+- File: `infix_to_postfix.c`
+- Example usage and testing provided in the file.
+
+## Linked List
+
+### Description
+A linked list is a linear data structure where elements are stored in nodes, and each node points to the next node in the sequence.
+
+### Implementation
+- File: `linked_list.c`
+- Example usage and testing provided in the file.
+
+## Polynomial Addition using Linked List
+
+### Description
+This algorithm adds two polynomials represented as linked lists.
+
+### Implementation
+- File: `polynomial_addition_linked_list.c`
+- Example usage and testing provided in the file.
+
+## Getting Started
+
+To compile and run the code:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/richujoseph/repository-name.git
