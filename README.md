@@ -30,6 +30,12 @@ This repository contains implementations of various data structures and algorith
 - [Infix to Postfix Conversion](#infix-to-postfix-conversion)
 - [Linked List](#linked-list)
 - [Polynomial Addition using Linked List](#polynomial-addition-using-linked-list)
+- [Sparse Matrix](#sparse-matrix)
+- [Sorting Algorithms](#sorting-algorithms)
+  - [Quick Sort](#quick-sort)
+  - [Insertion Sort](#insertion-sort)
+  - [Selection Sort](#selection-sort)
+  - [Merge Sort](#merge-sort)
 
 ## Linear Search
 
@@ -111,6 +117,44 @@ This algorithm adds two polynomials represented as linked lists.
 ### Implementation
 - File: `polynomial_addition_linked_list.c`
 - Example usage and testing provided in the file.
+
+## Sparse Matrix
+
+### Description
+A sparse matrix is a matrix in which most of the elements are zero. Efficient storage methods are used to save space.
+
+### Implementation
+- File: `sparse_matrix.c`
+- Example usage and testing provided in the file.
+
+  ## Sorting Algorithms
+
+### Description
+Sorting algorithms are methods for arranging the elements of a list or array in a specific order. Below are some common sorting algorithms:
+
+#### Quick Sort
+- **Description**: Quick sort is a divide-and-conquer algorithm that selects a 'pivot' element and partitions the array into two sub-arrays.
+- **Implementation**: 
+  - File: `quick_sort.c`
+  - Example usage and testing provided in the file.
+
+#### Insertion Sort
+- **Description**: Insertion sort builds a sorted array one element at a time by repeatedly taking an element from the unsorted portion and inserting it into the correct position.
+- **Implementation**: 
+  - File: `insertion_sort.c`
+  - Example usage and testing provided in the file.
+
+#### Selection Sort
+- **Description**: Selection sort divides the input list into two parts: a sorted and an unsorted part, and repeatedly selects the smallest (or largest) element from the unsorted part and moves it to the sorted part.
+- **Implementation**: 
+  - File: `selection_sort.c`
+  - Example usage and testing provided in the file.
+
+#### Merge Sort
+- **Description**: Merge sort is a divide-and-conquer algorithm that divides the array into two halves, recursively sorts each half, and then merges the two sorted halves back together. It is efficient for large datasets and has a time complexity of O(n log n).
+- **Implementation**: 
+  - File: `merge_sort.c`
+  - Example usage and testing provided in the file.
 
 ## Getting Started
 
