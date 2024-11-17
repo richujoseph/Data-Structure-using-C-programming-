@@ -31,6 +31,7 @@ This repository contains implementations of various data structures and algorith
 - [Linked List](#linked-list)
 - [Polynomial Addition using Linked List](#polynomial-addition-using-linked-list)
 - [Sparse Matrix](#sparse-matrix)
+- [Binarytree](#binary-tree)
 - [Sorting Algorithms](#sorting-algorithms)
   - [Quick Sort](#quick-sort)
   - [Insertion Sort](#insertion-sort)
