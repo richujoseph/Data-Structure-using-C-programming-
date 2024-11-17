@@ -127,6 +127,19 @@ A sparse matrix is a matrix in which most of the elements are zero. Efficient st
 ### Implementation
 - File: `sparse_matrix.c`
 - Example usage and testing provided in the file.
+  
+## Binary Tree
+
+### Description
+A binary tree is a hierarchical data structure in which each node has at most two children, referred to as the left child and the right child. This data structure is widely used in various applications, including searching, sorting, and hierarchical data representation.
+
+### Implementation
+The binary tree is implemented in C. The program allows users to create a binary tree interactively and perform various tree traversals (preorder, inorder, and postorder).
+
+- File: `binary_tree.c`
+
+This file contains the complete implementation of the binary tree, including functions for creating the tree and performing the traversals.
+
 
   ## Sorting Algorithms
 
