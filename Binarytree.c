@@ -58,7 +58,7 @@ void Postorder(struct node *root) {
     }
     Postorder(root->left);
     Postorder(root->right);
-    printf("%d ", root->data); 
+    printf("%d ", root->data);  
 }
 
 int main() {
