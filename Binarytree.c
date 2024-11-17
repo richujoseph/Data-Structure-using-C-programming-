@@ -48,7 +48,7 @@ void Inorder(struct node *root) {
         return;
     }
     Inorder(root->left);
-    printf("%d ", root->data);
+    printf("%d ", root->data); 
     Inorder(root->right);
 }
 
@@ -58,21 +58,43 @@ void Postorder(struct node *root) {
     }
     Postorder(root->left);
     Postorder(root->right);
-    printf("%d ", root->data);
+    printf("%d ", root->data); 
 }
 
 int main() {
     struct node *root = NULL;
     root = Create();
     
-    printf("\nPreorder traversal: ");
-    preorder(root);
-    
-    printf("\nInorder traversal: ");
-    Inorder(root);
-    
-    printf("\nPostorder traversal: ");
-    Postorder(root);
+    int choice;
+    do {
+        printf("\nChoose a traversal method:\n");
+        printf("1. Preorder\n");
+        printf("2. Inorder\n");
+        printf("3. Postorder\n");
+        printf("4. Exit\n");
+        printf("Enter your choice: ");
+        scanf("%d", &choice);
+        
+        switch(choice) {
+            case 1:
+                printf("\nPreorder traversal: ");
+                preorder(root);
+                break;
+            case 2:
+                printf("\nInorder traversal: ");
+                Inorder(root);
+                break;
+            case 3:
+                printf("\nPostorder traversal: ");
+                Postorder(root);
+                break;
+            case 4:
+                printf("Exiting...\n");
+                break;
+            default:
+                printf("Invalid choice! Please try again.\n");
+        }
+    } while(choice != 4);
     
     return 0;
 }
