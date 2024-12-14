@@ -1,20 +1,4 @@
-# Repository Under Maintenance
 
-**⚠️ Disclaimer: This repository is currently under maintenance.**
-
-We are in the process of updating the content and fixing any issues. Please check back later for updates. We appreciate your understanding and patience during this time.
-
-## What You Can Expect
-
-- Improvements to existing code and documentation.
-- New features and enhancements.
-- Bug fixes and performance optimizations.
-
-If you have any urgent questions or need assistance, please feel free to reach out.
-
-Thank you for your support!
-
-*Richu Joseph*
 # Data Structures in C
 
 This repository contains implementations of various data structures and algorithms in C. The focus is on fundamental concepts that are essential for understanding data organization and manipulation.
@@ -45,7 +29,6 @@ Linear search is a simple algorithm that checks every element in a list until th
 
 ### Implementation
 - File: `linear_search.c`
-- Example usage and testing provided in the file.
 
 ## Binary Search
 
@@ -54,7 +37,6 @@ Binary search is a more efficient algorithm that finds the position of a target 
 
 ### Implementation
 - File: `binary_search.c`
-- Example usage and testing provided in the file.
 
 ## Circular Queue
 
@@ -63,7 +45,6 @@ A circular queue is a linear data structure that follows the FIFO (First In Firs
 
 ### Implementation
 - File: `circular_queue.c`
-- Example usage and testing provided in the file.
 
 ## Queue
 
@@ -72,8 +53,6 @@ A queue is a linear data structure that follows the FIFO principle, where elemen
 
 ### Implementation
 - File: `queue.c`
-- Example usage and testing provided in the file.
-
 ## Stack using Array
 
 ### Description
@@ -81,7 +60,6 @@ A stack is a linear data structure that follows the LIFO (Last In First Out) pri
 
 ### Implementation
 - File: `stack_array.c`
-- Example usage and testing provided in the file.
 
 ## Polynomial Addition
 
@@ -90,8 +68,6 @@ This algorithm adds two polynomials represented as arrays.
 
 ### Implementation
 - File: `polynomial_addition.c`
-- Example usage and testing provided in the file.
-
 ## Infix to Postfix Conversion
 
 ### Description
@@ -99,7 +75,6 @@ This algorithm converts infix expressions (like `A + B`) to postfix expressions 
 
 ### Implementation
 - File: `infix_to_postfix.c`
-- Example usage and testing provided in the file.
 
 ## Linked List
 
@@ -108,7 +83,6 @@ A linked list is a linear data structure where elements are stored in nodes, and
 
 ### Implementation
 - File: `linked_list.c`
-- Example usage and testing provided in the file.
 
 ## Polynomial Addition using Linked List
 
@@ -117,7 +91,6 @@ This algorithm adds two polynomials represented as linked lists.
 
 ### Implementation
 - File: `polynomial_addition_linked_list.c`
-- Example usage and testing provided in the file.
 
 ## Sparse Matrix
 
@@ -126,7 +99,6 @@ A sparse matrix is a matrix in which most of the elements are zero. Efficient st
 
 ### Implementation
 - File: `sparse_matrix.c`
-- Example usage and testing provided in the file.
   
 ## Binary Tree
 
@@ -138,8 +110,6 @@ The binary tree is implemented in C. The program allows users to create a binary
 
 - File: `binary_tree.c`
 
-This file contains the complete implementation of the binary tree, including functions for creating the tree and performing the traversals.
-
 
   ## Sorting Algorithms
 
@@ -150,30 +120,31 @@ Sorting algorithms are methods for arranging the elements of a list or array in 
 - **Description**: Quick sort is a divide-and-conquer algorithm that selects a 'pivot' element and partitions the array into two sub-arrays.
 - **Implementation**: 
   - File: `quick_sort.c`
-  - Example usage and testing provided in the file.
 
 #### Insertion Sort
 - **Description**: Insertion sort builds a sorted array one element at a time by repeatedly taking an element from the unsorted portion and inserting it into the correct position.
 - **Implementation**: 
   - File: `insertion_sort.c`
-  - Example usage and testing provided in the file.
 
 #### Selection Sort
 - **Description**: Selection sort divides the input list into two parts: a sorted and an unsorted part, and repeatedly selects the smallest (or largest) element from the unsorted part and moves it to the sorted part.
 - **Implementation**: 
   - File: `selection_sort.c`
-  - Example usage and testing provided in the file.
 
 #### Merge Sort
 - **Description**: Merge sort is a divide-and-conquer algorithm that divides the array into two halves, recursively sorts each half, and then merges the two sorted halves back together. It is efficient for large datasets and has a time complexity of O(n log n).
 - **Implementation**: 
   - File: `merge_sort.c`
-  - Example usage and testing provided in the file.
 
 ## Getting Started
 
 To compile and run the code:
 
-1. Clone the repository:
-   ```bash
+ # Clone the repository:
+  ```bash
    git clone https://github.com/richujoseph/repository-name.git
+# Compile the program
+gcc -o program_name source_file.c
+
+# Run the executable
+./program_name
